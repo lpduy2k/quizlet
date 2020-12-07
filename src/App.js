@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Ex1 from './slot2/Ex1';
+import Ex2 from './slot2/Ex2';
+import Ex3 from './slot2/Ex3';
+import BaiTap1 from './BaiTap1/BaiTap1';
+import Test from './BaiTap1/Test';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Ex1 /> */}
+      {/* <Ex2 /> */}
+      {/* <Ex3 /> */}
+      <BaiTap1 />
+      {/* <Test /> */}
     </div>
   );
 }
